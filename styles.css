@@ -1,18 +1,17 @@
 body {
   font-family: fantasy;
-  
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #4b4949;
+  background-color: #000000;
 }
 
 .container {
   background: rgb(49, 100, 203);
   padding: 20px;
   border-radius: 50px;
-  box-shadow: 20px 20px 30px rgb(149, 0, 255);
+  box-shadow: 20px 20px 30px rgb(253, 0, 0);
   width: 100%;
   max-width: 700px;
 }
@@ -21,7 +20,7 @@ h1 {
   text-align: center;
   margin-bottom: 20px;
 }
-H2{text-shadow: #000000;
+H2{
 width: 100%;
 text-align: center;
 position: fixed;
@@ -37,7 +36,7 @@ top: 0;
   font-family: cursive;
   flex: 1;
   padding: 10px;
-  border: 1px solid #000000;
+  border: 1px solid  #c0c0c0;
   border-radius: 4px;
 }
 
