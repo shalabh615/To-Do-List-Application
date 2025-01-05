@@ -1,0 +1,100 @@
+body {
+  font-family: fantasy;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4b4949;
+}
+
+.container {
+  background: rgb(49, 100, 203);
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 20px 20px 30px rgb(149, 0, 255);
+  width: 100%;
+  max-width: 700px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+H2{text-shadow: #000000;
+width: 100%;
+text-align: center;
+position: fixed;
+top: 0;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#task-input {
+  font-family: cursive;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+#add-task-btn {
+  font-family: "Lucida Console", Courier, monospace;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-container {
+  font-family: "Lucida Console", Courier, monospace;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  font-family: "Lucida Console", Courier, monospace;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.filter-btn.active {
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: #007bff;
+  color: white;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
